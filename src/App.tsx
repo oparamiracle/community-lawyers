@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "./components/Header";
-import { Book, books } from "./data/book";
 import PrintButton from "./components/PrintButton";
+import { Book, books } from "./data/book";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");

@@ -1,6 +1,6 @@
 import React from "react";
 
-const PrintButton = () => {
+const PrintButton: React.FC = () => {
   const handlePrint = () => {
     window.print();
   };
