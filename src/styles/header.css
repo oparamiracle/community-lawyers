@@ -1,0 +1,19 @@
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  background-color: darkgrey;
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  align-items: center;
+  font-family: inter;
+}
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
